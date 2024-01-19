@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: "Salsa", cursive;
+}
+ img{
+    position: absolute;
+    height: 120vh;
+    width: 100%;
+    z-index: -3;
+    opacity: 0.8;
+    object-fit: cover;
+}
+ h1{
+    text-align: center;
+    padding: 15px 4px;
+    font-size: 2rem;
+    color: white;
+ }
+#nav{
+    position: relative;
+    margin: auto;
+    height: 8vh;
+    width:60%;
+    background: black;
+    border-radius: 15px;
+    
+}
+#nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+}
+
+#nav ul li{
+    color: white;
+    font-size: 1.5rem;
+    list-style: none;
+    margin: 6px 4px;
+    padding: 4px 50px;
+    transition: all ease 0.5s;
+}
+
+#nav ul li:hover{
+    color:#00ff00 ;
+    cursor: pointer;
+}
+
+.container{
+    height: 90vh;
+    width: 100%;
+    padding: 3px 4px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#card1 , #card2 , #card3{
+    height: 70vh;
+    width: 60vh;
+    border: 2px solid transparent;
+    margin: 3px 4px;
+    border-radius: 10px;
+    background: rgba(0, 255, 0, 0.3); 
+    box-shadow: 0 0 10px 5px #00ff00;
+    z-index: -1;
+   
+}
+
+
+
+.container img{
+    height: 250px;
+    width: inherit;
+    border-radius: 10px;
+}
+
+.capsule1{
+    height: 30px;
+    width: 70px;
+    background: rebeccapurple;
+    position: relative;
+    border-radius:15px ;
+    margin: 3px 4px;
+    padding: 3px 4px;
+    top:55%;
+    text-align: center;
+}
+
+.text{
+    position: relative;
+    top:60%;
+    font-size: 1.2rem;
+}
